@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/0242f31d13.js" crossorigin="anonymous"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+  <title>SNSB - Info</title>
+</head>
+<style type="text/css">
+  body{
+  background-color: #f2f2f2;
+  }
+  .card{
+  background-color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+  }
+  .card:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+  h1{
+  text-align: center;
+  font-size: 26px;
+  padding-top: 10px;
+  color:#576574;
+  }
+  p.text-base{
+  padding-top: 15px;
+  text-align: center;
+  padding-bottom: 15px;
+  color: #8395a7;
+  }
+  .fa{
+  font-size: 36px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  color: #576574;
+  }
+  @media(max-width: 430px){
+  .card{
+  margin: 10px;
+  }
+  }
+</style>
+<body class="bg-slate-100 overflow-x-hidden">
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <span>
+            <a href="/"><img class="w-10 h-10" src="img/bank-logo.png" alt="Nagrik Sahkari Bank"></a>
+        </span>
+        <a href="/" class="ml-3 text-xl text-black hover:text-[#a5940c] hover:font-bold hover:underline text-center">Shajapur Nagrik Sahkari Bank Maryadit</a>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a href="index.html" class="mr-5 cursor-pointer lg:text-xl hover:text-[#a5940c] hover:overline hover:font-bold">Home</a>
+        <a href="about.html" class="mr-5 cursor-pointer lg:text-xl hover:text-[#a5940c] hover:overline hover:font-bold">About Us</a>
+        <a href="info.html" class="mr-5 cursor-pointer lg:text-xl hover:text-[#a5940c] hover:overline hover:font-bold">Information</a>
+        <a href="gallery.html" class="mr-5 cursor-pointer lg:text-xl hover:text-[#a5940c] hover:overline hover:font-bold">Gallery</a>
+      </nav>
+        </svg>
+      </button>
+    </div>
+  </header>
+  <hr class="border-4 border-black">
+
+
+  <div class="container mx-auto flex flex-wrap my-8 justify-center">
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <a href="financialGrowth.html" class="max-w-sm mx-12 my-8 rounded overflow-hidden shadow-xl cursor-pointer card">
+          <div class="px-6 py-4 ">
+            <i class="fa fa-line-chart" aria-hidden="true"></i>
+            <h1 class="font-bold mb-2">Financial Growth</h1>
+          </div>
+        </a>
+        <a href="savingsAccount.html" class="max-w-sm mx-12 my-8 rounded overflow-hidden shadow-xl cursor-pointer card">
+          <div class="px-6 py-4 ">
+            <i class="fa fa-inr" aria-hidden="true"></i>
+            <h1 class="font-bold mb-2">Savings Account</h1>
+          </div>
+        </a>
+        <a href="currentAccount.html" class="max-w-sm mx-12 my-8 rounded overflow-hidden shadow-xl cursor-pointer card">
+          <div class="px-6 py-4 ">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <h1 class="font-bold mb-2">Current Account</h1>
+          </div>
+        </a>
+        <a href="fixedDeposit.html" class="max-w-sm mx-12 my-8 rounded overflow-hidden shadow-xl cursor-pointer card">
+          <div class="px-6 py-4 ">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <h1 class="font-bold mb-2">Fixed Deposit</h1>
+          </div>
+        </a>
+        <a href="recurringDeposit.html" class="max-w-sm mx-12 my-8 rounded overflow-hidden shadow-xl cursor-pointer card">
+          <div class="px-6 py-4 ">
+            <i class="fa fa-repeat" aria-hidden="true"></i>
+            <h1 class="font-bold mb-2">Recurring Deposit</h1>
+          </div>
+        </a>
+        <a href="rateOfInterest.html" class="max-w-sm mx-12 my-8 rounded overflow-hidden shadow-xl cursor-pointer card">
+          <div class="px-6 py-4 ">
+            <i class="fa fa-percent" aria-hidden="true"></i>
+            <h1 class="font-bold mb-2">Rate of Interest</h1>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  <div class="flex flex-col">
+  <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+    <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+      <div class="overflow-hidden flex items-center justify-center">
+        <table class="w-1/2 text-center text-sm font-light">
+          <tbody>
+            <tr
+              class="border-b border-secondary-200 bg-orange-400 text-neutral-800">
+              <td class="whitespace-nowrap px-6 py-4 font-extrabold">IFSC Code</td>
+              <td class="whitespace-nowrap px-6 py-4 font-bold">KKBK0SNSB01</td>
+            </tr>
+            <tr
+              class="border-b border-success-200 bg-white text-neutral-800">
+              <td class="whitespace-nowrap px-6 py-4 font-extrabold">RBI License No.</td>
+              <td class="whitespace-nowrap px-6 py-4 font-bold">UBD/MP/1199P dated 01/01/1996</td>
+            </tr>
+            <tr
+              class="border-b border-success-200 bg-green-500 text-neutral-800">
+              <td class="whitespace-nowrap px-6 py-4 font-extrabold">Registration No.</td>
+              <td class="whitespace-nowrap px-6 py-4 font-bold">JR/UJN/95/6 dated 06/07/1995</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <footer class="text-gray-600 body-font mt-2">
+    <hr class="border-4 border-black">
+      <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <span>
+              <a href="/"><img class="w-10 h-10" src="img/bank-logo.png" alt="Nagrik Sahkari Bank"></a>
+          </span>
+          <span class="ml-3 text-xl text-center">Shajapur Nagrik Sahkari <br>Bank Maryadit</span>
+        </a>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a href="https://www.facebook.com/profile.php?id=100064492067659&mibextid=ZbWKwL" target="_blank" class="text-[#a5940c] border-4 p-2 border-[#a5940c] hover:scale-125">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" data-darkreader-inline-fill="" style="--darkreader-inline-fill: currentColor;">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          
+        </span>
+      </div>
+    </footer>
+</body>
+</html>
